@@ -1,0 +1,11 @@
+:root { --primary: #000; --bg: #f9f9f9; }
+body { font-family: 'Inter', sans-serif; background: var(--bg); margin: 0; }
+.container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 40px; }
+.tabs button { padding: 10px 20px; border: none; background: #eee; cursor: pointer; border-radius: 8px; margin-left: 10px; font-weight: bold; }
+.tabs button.active { background: #000; color: #fff; }
+.card, .project-card { background: #fff; padding: 25px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); margin-bottom: 20px; }
+textarea, input { width: 100%; padding: 12px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 8px; box-sizing: border-box; }
+button { background: #000; color: #fff; border: none; padding: 12px 24px; border-radius: 8px; font-weight: bold; cursor: pointer; transition: 0.2s; width: 100%; }
+button:hover { opacity: 0.8; }
+.status { font-size: 10px; font-weight: bold; text-transform: uppercase; color: #666; margin-bottom: 10px; }
